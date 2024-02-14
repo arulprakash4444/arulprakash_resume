@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#resumeBody {
+  width: 672px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(107, 114, 128);
+  padding: 1rem;
+  margin-bottom: 32px;
+}
+
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+}
+
+#title h3 {
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+}
+
+#duration {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+#glance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#notPhoto {
+  font-weight: 400;
+  display: block;
+  font-size: 14px;
+}
+
+#notPhoto p {
+  max-width: 28rem;
+}
+
+#location {
+  font-weight: 400;
+  display: block;
+  font-size: 14px;
+}
+
+#location a {
+  display: flex;
+  vertical-align: middle;
+  column-gap: 0.375rem;
+}
+
+#photo {
+  visibility: hidden;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 112px;
+
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+#social {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+/* #social a .icon {
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+} */
+
+#first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#description {
+  font-size: 14px;
+  /* color: black; */
+}
+
+#position {
+  font-weight: 500;
+  font-size: 14px;
+  /* color: black; */
+}
+
+#glance p {
+  margin-top: 6px;
+}
+
+#glance #location {
+  margin-top: 0px;
+}
+
+#glance #contact {
+  margin-top: 6px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  row-gap: 1rem;
+}
+
+#position {
+  margin-top: 6px;
+}
+
+#description {
+  margin-top: 2px;
+}
+
+#descriptionItem {
+  margin-top: 10px;
+}
+
+#descriptionCGPAItem {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+#skillsContainer span {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  /* border: 0 solid #e5e7eb; */
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#position {
+  color: black;
+}
